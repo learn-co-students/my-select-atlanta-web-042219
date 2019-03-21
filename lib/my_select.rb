@@ -1,3 +1,7 @@
 def my_select(collection)
- # your code here!
-end
+ collection.each do |num|
+   num
+ end
+  collection.select {|num| num.even?}
+ end
+
