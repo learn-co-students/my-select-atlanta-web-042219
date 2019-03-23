@@ -28,5 +28,4 @@ describe "my_select" do
       num.even?
     end
     expect(nums).to eq([1, 2, 3, 4, 5])
-  end
-end
+ 
