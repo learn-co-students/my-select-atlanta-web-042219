@@ -1,3 +1,3 @@
 def my_select(collection)
- # your code here!
-end
+ collection.select { |i| i.even? }
+ end
